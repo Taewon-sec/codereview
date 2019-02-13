@@ -21,7 +21,7 @@ int main(int argc, char* argv[]){
 	int customNumber = 0;
 
 	//empty check
-	if(priQueue.empty()){
+	if( priQueue.empty() ){
 		cout << "[!] Priority Queue is empty - initalized" << endl;
 	}
 
@@ -44,7 +44,7 @@ int main(int argc, char* argv[]){
 	}
 
 	//empty & size
-	if(priQueue.empty()){
+	if( priQueue.empty() ){
 		cout << "[-] Priority Queue is empty. - Push method did not work!" << endl;
 		return -1;
 	}
