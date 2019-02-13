@@ -12,5 +12,5 @@ class templatePriorityQueue {
 		void push(const T&);
 		void pop();	
 	private:
-		std::priority_queue<T> storage;
+		std::priority_queue<T> storage_;
 };
